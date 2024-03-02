@@ -1,3 +1,3 @@
-export const GET_SEGEL = "GET /api/segel";
 
-export const POST_SEGEL = "POST /api/segel";
+export const GET_COMMENT = "GET /api/comment";
+export const POST_COMMENT = "POST /api/comment";
