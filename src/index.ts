@@ -29,8 +29,6 @@ const server = createServer((req: IncomingMessage, res: ServerResponse) => {
       break;
     default:
       mainRoute(req, res);
-      // res.statusCode = 404; // Set status code to 404
-      // res.end("Not Found"); // Send "Not Found" response
       break;
   }
 });
