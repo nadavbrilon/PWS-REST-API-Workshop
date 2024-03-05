@@ -20,7 +20,6 @@ await mongoose.connect(dbURI);
 const server = createServer((req: IncomingMessage, res: ServerResponse) => {
   const route = createRoute(req.url, req.method);
 
-
   switch (route) {
     case POST_COMMENT:
       createComment(req, res);
